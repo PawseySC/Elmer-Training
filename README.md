@@ -6,7 +6,15 @@ Elmer is a scientific software tool that helps researchers simulate and understa
 ## Access to Setonix
 ## Submitting your first job on Setonix
 ## Submitting Elmer job on Setonix
-Training materials are available on Setonix: `/scratch/courses01/elmer_parallel_demo.tar.gz`. 
+Training materials are available on Setonix: `/scratch/courses01/elmer_parallel_demo.tar.gz`
+Create your own copy of materials by:
+
+  cd $MYSCRATCH
+  cp /scratch/courses01/elmer_parallel_demo.tar.gz .
+  tar zxf elmer_parallel_demo.tar.gz
+  cd elmer_parallel_demo/
+
+
 
 ## Visualising your results
 Documentation on how to use Paraview at Pawsey's remote visualisation service: 
