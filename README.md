@@ -51,7 +51,7 @@ Note that this step created Elmer grid for serial run.
 ### Step 3 
 Partition Elmer grid for parallel execution on 128 MPI tasks:
 
-    ElmerGrid 2 2 elmer_flow_cl05 -partdual -metiskway 128
+    $ ElmerGrid 2 2 elmer_flow_cl05 -partdual -metiskway 128
 
 ## Visualising your results
 Documentation on how to use Paraview at Pawsey's remote visualisation service: 
