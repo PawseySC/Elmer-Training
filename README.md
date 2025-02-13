@@ -14,6 +14,8 @@ All participants of the course will obtain training account and password. We rec
 
 ## Submitting your first job on Setonix
 
+* [Documentation on how to submit jobs to Setonix](https://pawsey.atlassian.net/wiki/spaces/US/pages/51925964/Job+Scheduling)
+
 ## Submitting Elmer job on Setonix
 Training materials are available on Setonix: `/scratch/courses01/elmer_parallel_demo.tar.gz`
 Create your own copy of materials by:
