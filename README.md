@@ -40,3 +40,5 @@ Documentation on how to use Paraview at Pawsey's remote visualisation service:
 * [Setonix Remote Visualisation Documentation](https://pawsey.atlassian.net/wiki/spaces/US/pages/51925070/Setonix+Remote+Visualisation)
 * [Getting Started with Setonix Remote Visualisation](https://pawsey.atlassian.net/wiki/spaces/US/pages/51925068/Getting+Started+With+Setonix+Remote+Visualisation)
 * [ParaView on Setonix Remote Visualisation](https://pawsey.atlassian.net/wiki/spaces/US/pages/51925146/ParaView+on+Setonix+Remote+Visualisation)
+
+Navigate to [vis.pawsey.org.au](https://vis.pawsey.org.au)
