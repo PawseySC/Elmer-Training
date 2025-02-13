@@ -39,7 +39,12 @@ Content of the directory:
 ### Step 1
 To create the mesh: 
     
-    gmsh -3 -clscale 0.5 elmer_flow.geo -o elmer_flow_cl05.msh
+    $ gmsh -3 -clscale 0.5 elmer_flow.geo -o elmer_flow_cl05.msh
+
+### Step 2
+Take gmsh mesh and transate it into Elmer mesh:
+
+    $ ElmerGrid 14 2 elmer_flow_cl05.msh -autoclean
 
 ## Visualising your results
 Documentation on how to use Paraview at Pawsey's remote visualisation service: 
