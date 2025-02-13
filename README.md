@@ -26,8 +26,8 @@ Create your own copy of materials by:
 Content of the directory:
 
     $ ls
-    elmer_flow_gcr.sif  elmer_flow.msh       linsys_rocm.sif      runelmer_gpu_serial.sh
-    elmer_flow.geo      elmer_flow_rocm.sif  runelmer_cpu_mpi.sh  runpost.sh
+    elmer_flow_gcr.sif  elmer_flow.msh       gcr.sif          runelmer_cpu_mpi.sh     runpost.sh
+    elmer_flow.geo      elmer_flow_rocm.sif  linsys_rocm.sif  runelmer_gpu_serial.sh
 
 * `runelmer_cpu_mpi.sh` - can be used to submit parallel MPI Elmer job on Setonix CPUs
 * `runelmer_gpu_serial.sh` - can be used to submit single-GPU Elmer job on Setonix GPU
