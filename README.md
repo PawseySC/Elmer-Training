@@ -36,6 +36,11 @@ Content of the directory:
 * `runelmer_gpu_serial.sh` - can be used to submit single-GPU Elmer job on Setonix GPU
 * `runpost.sh` - can be used to visualise results with Paraview; should be run on Setonix visualisation nodes (remote visualisation service - see below)
 
+### Step 1
+To create the mesh: 
+    
+    gmsh -3 -clscale 0.5 elmer_flow.geo -o elmer_flow_cl5.msh
+
 ## Visualising your results
 Documentation on how to use Paraview at Pawsey's remote visualisation service: 
 * [Setonix Remote Visualisation Documentation](https://pawsey.atlassian.net/wiki/spaces/US/pages/51925070/Setonix+Remote+Visualisation)
